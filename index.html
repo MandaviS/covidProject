@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>COVELP</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="navbar__brand">
+         <a href="http://127.0.0.1:5500/index.html"><img src="./images/logo-covid.png" alt="logo" class="navbar__logo" /></a>
+        </div>
+        <div class="navbar__nav__items">
+          <button class="nav__item button__primary"><a href="#explore" style="color: white;">Queries</a></button>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <!-- Hero Section -->
+      <section class="hero__container">
+        <div class="hero__image__container">
+         <img src="./images/heroShape.svg" />
+        <img class="hero__image" src="./images/herobgpattren.svg" />
+         <img class="hero__image" src="./images/coronavirus.png" alt="hero image" />
+        </div>
+        <div class="hero__description">
+          <h1 class="hero__text">
+            Get latest Covid-19 information here!!
+          </h1>
+          <button class="button__primary"><a href="#update" style="color: white;">Get Updates</a></button>
+        </div>
+      </section>
+
+      <!-- Explore Menu -->
+      <section class="explore__menu__container" id="explore">
+        <h1 class="explore__menu__text">Explore Options</h1>
+        <div class="explore__menu__gradient__bg"></div>
+        <div class="explore__menu__lists">
+          <!-- Hospitals -->
+          <div class="covid__menu__card">
+            <img src="images/beds.png" alt="Hopital Beds" class="covid__image" />
+            <div class="covid__menu__card__description">
+              <h3 class="covid__title">Hospital Beds</h3>
+              <p class="covid__places">
+                Ventilator,Non-ventilator,General
+                <span style="color: red"> +3</span>
+              </p>
+            </div>
+          </div>
+          <!-- Oxygen -->
+          <div class="covid__menu__card" id="oxygen__card">
+            <img src="./images/oxygen.png" alt="Oxygen-Cylinders" class="covid__image" />
+            <div class="covid__menu__card__description">
+              <h3 class="covid__title">Oxygen-Cylinders</h3>
+              <p class="covid__places">
+                3 Litres, 5 Liters, 10 Litres
+                <span style="color: red"> +3</span>
+              </p>
+            </div>
+          </div>
+          <!-- Medicine -->
+          <div class="covid__menu__card">
+            <img
+              src="./images/Med.png"
+              alt="Medicines"
+              class="covid__image"
+            />
+            <div class="covid__menu__card__description">
+              <h3 class="covid__title">Medicines</h3>
+              <p class="covid__places">
+                Rendesivir,Dexamethasone,Covalescent Plasma
+                <span style="color: red"> +3</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="explore__menu__view__more">
+          <button class="button__primary"><a href="http://127.0.0.1:5500/info.html" style="color: white; " target="_blank" >Explore</a></button>
+        </div>
+      </section>
+
+      <!-- Doctors -->
+      <section class="doctors__container">
+        <h1 class="doctors__description">Everything you must need to be safest!!</h1>
+        <div class="doctors__flex">
+          <div class="doctors__flex__row__one">
+            <div class="doctors__1">
+              <img
+                class="doctors__1__image"
+                src="./images/doctor.png"
+                alt="doctors__1"
+              />
+            </div>
+            <div class="doctors__2">
+              <img
+                class="doctors__2__image"
+                src="./images/mask.png"
+                alt="doctors__2"
+              />
+            </div>
+          </div>
+          <div class="doctors__flex__row__two">
+            <div class="doctors__3">
+              <img
+                class="doctors__3__image"
+                src="./images/sanitizer.png"
+                alt="doctors__3"
+              />
+            </div>
+            <div class="doctors__4">
+              <img
+                class="doctors__4__image"
+                src="./images/vaccine.png"
+                alt="doctors__4"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+  <!--INPUT FORM-->
+      <section class="input__form__container">
+          <h1 class="input__form__text">
+              Stay Updated
+          </h1>
+          <div class="input__form__description">
+          <div class="input__form">
+              <input class="input__form__main" type="email" placeholder="email@email.com" name="email" />
+        </div>
+        <div class="input__form__button__container">
+        <button id="update" class="button__primary"><a href="http://127.0.0.1:5500/update.html" style="color: white;" target="_blank">Get Updates and Solutions</a></button>
+        </div>
+        </div>
+      </section>
+   <!--QUOTE-->  
+   <section class="quote__description">
+     <div class="quote__image__container">
+       <img class="quote__image" src="./images/quote.png" />
+     </div>
+   </section>
+    </main>
+   <!--Footer Section-->
+   <footer>
+     <section>
+       <div class="footer__container">
+         <div class="footer__logo">
+         <h1>COVELP</h1>
+         </div>
+         <div class="footer__text">
+          <ul class="footer__list">
+            <li><a href=# style="color: white;">Utilities</a></li>
+            <li><a href=# style="color: white;">Terms and Conditions</a></li>
+            <li><a href=# style="color: white;">Partnership</a></li>
+            <li><a href=# style="color: white;">Email</a></li>
+            <li><a href=# style="color: white;">Contact</a></li>
+          </ul>
+         </div>
+       </div>
+     </section>
+   </footer> 
+  </body>
+</html>
